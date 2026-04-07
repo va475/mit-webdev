@@ -45,3 +45,118 @@ box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   margin-bottom: 10px;
   color: #444444;
 }
+/* ===== RESET & BASE ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #333333;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* ===== HEADING ===== */
+h1 {
+  font-size: 48px;
+  color: #ff6600;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 28px;
+  color: #333333;
+  border-bottom: 2px solid #ff6600;
+  padding-bottom: 8px;
+}
+
+h3 {
+  font-size: 22px;
+  color: #555555;
+}
+
+/* ===== PARAGRAPH ===== */
+p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555555;
+}
+
+.intro {
+  font-size: 20px;
+  font-style: italic;
+  color: #888888;
+  text-align: center;
+}
+
+/* ===== LIST ===== */
+.goals-list {
+  padding: 0;
+  list-style: none;
+}
+
+.goals-list li {
+  font-size: 18px;
+  padding: 10px 16px;
+  margin-bottom: 10px;
+  background-color: #fff4ee;
+  border-left: 4px solid #ff6600;
+  border-radius: 6px;
+  color: #444444;
+}
+
+/* ===== LINK ===== */
+a {
+  color: #ff6600;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== IMAGE ===== */
+img {
+  width: 100%;
+  border-radius: 12px;
+  margin: 16px 0;
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px;
+  box-shadow: 0 4px 10px rgba(255,102,0,0.3);
+}
+
+.btn:hover {
+  background-color: #cc5200;
+  opacity: 0.9;
+}
+
+/* ===== FLEXBOX BUTTON ROW ===== */
+.button-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
