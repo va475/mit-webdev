@@ -160,3 +160,19 @@ img {
   flex-wrap: wrap;
   margin-top: 20px;
 }
+
+.box1 {
+  background-color: #fff4ee;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #0066cc;
+}
+
+.box2 {
+  background-color: #eef4ff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #0066cc;
+}
